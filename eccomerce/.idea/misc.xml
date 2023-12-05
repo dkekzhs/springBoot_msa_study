@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/first-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../first-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../second-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../zuul-service/pom.xml" />
       </list>
     </option>
   </component>
