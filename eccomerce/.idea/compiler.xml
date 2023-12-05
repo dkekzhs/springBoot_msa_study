@@ -10,10 +10,12 @@
         <module name="user-service" />
         <module name="eccomerce" />
         <module name="zuul-service" />
+        <module name="apigateway-service" />
         <module name="second-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apigateway-service" target="11" />
       <module name="eccomerce" target="11" />
       <module name="first-service" target="11" />
       <module name="second-service" target="11" />
@@ -23,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apigateway-service" options="-parameters" />
       <module name="eccomerce" options="-parameters" />
       <module name="first-service" options="-parameters" />
       <module name="second-service" options="-parameters" />
