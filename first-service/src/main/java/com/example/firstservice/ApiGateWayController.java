@@ -22,4 +22,8 @@ public class ApiGateWayController {
         return "first-service message" + header;
     }
 
+    @GetMapping("/check")
+    public String check(){
+        return "Hi , there. This is a message from first_service";
+    }
 }

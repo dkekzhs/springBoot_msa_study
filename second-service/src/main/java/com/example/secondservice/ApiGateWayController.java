@@ -19,7 +19,11 @@ public class ApiGateWayController {
     @GetMapping("/message")
     public String message(@RequestHeader("second-req") String header){
         log.info(header);
-        return "first-service message" + header;
+        return "second-service message" + header;
     }
 
+    @GetMapping("/check")
+    public String check(){
+        return "Hi , there. This is a message from second_service";
+    }
 }
